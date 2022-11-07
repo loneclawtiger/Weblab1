@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2247117 Web Stack Lab 1</title>
+    </head>
+    <body>
+        <h1>Welcome to the PC Gaming Section</h1>
+        <table>
+            <tr>
+              <td rowspan="2"><b>Name</b></td>
+              <td><a href="https://www.ign.com/articles/god-of-war-ragnarok-review"><b>God of War: Ragnarök</b></a></td>
+              <td><a href="https://www.ign.com/games/call-of-duty-modern-warfare-2"><b>Call of Duty: Modern Warfare II</b></a></td>
+              <td><a href="https://www.ign.com/games/horizon-forbidden-west"><b>Horizon: Forbidden West</b></a></td>
+            </tr>
+            <tr> 
+              <td>
+                <img src="Gow.jpg"  height="70%" width="70%" alt="God of War: Ragnarök" usemap="#gow">
+                <map name="gow">
+                    <area shape="rect" coords="120,17,275,42" alt="Computer" href="https://www.ign.com/articles/god-of-war-ragnarok-review">
+                  </map>
+            </td>
+              <td>
+                <img src="MW2.jpg" height="70%" width="70%" alt="Call of Duty: Modern Warfare II" usemap="#codmw">
+                <map name="codmw">
+                    <area shape="rect" coords="250,80,390,160" alt="Computer" href="https://www.ign.com/games/call-of-duty-modern-warfare-2">
+                </map>
+            </td>
+              <td>
+                <img src="horizon.jpg" height="70%" width="70%" alt="Horizon: Forbidden West" usemap="#hor">
+                <map name="hor">
+                    <area shape="rect" coords="150,100,260,150" alt="Computer" href="https://www.ign.com/games/horizon-forbidden-west">
+                </map>
+            </td>
+            </tr>
+            <tr>
+                <td><b>Specs</b></td>
+                <td>
+                    <ul>
+                    <li>Size: 90GB</li>
+                    <li>Single Player</li>
+                    <li>No In-game Purchases</li>
+                  </ul>
+                </td>
+                <td>
+                    <ol>
+                        <li>Size: 70GB</li>
+                        <li>Multi-Player</li>
+                        <li>Contains In-game Purchases</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul>
+                        <li>Size: 80GB</li>
+                        <li>Single Player</li>
+                        <li>Contains In-game Purchases</li>
+                    </ul>
+                </td>
+            </tr>
+          </table>
+          <br>
+          <form action="2247236_WebLab1.html">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">God of War: Ragnarök</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">Call of Duty: Modern Warfare II</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">Horizon: Forbidden West</label><br>
+            <input type="submit" value="Submit">
+          </form>
+    </body>
+</html>
+<style>
+    body{
+       background-image: url('1624.jpg');
+       background-repeat: no-repeat;
+       background-size: stretch;
+       text-align: center;
+       align-items: center;
+    }
+    h1{
+        font-size: 60px;
+        color: rgb(132, 230, 255);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h4{
+        font-size: 30px;
+        color: white;
+        font-family: monospace
+    }
+    button{
+        border: none;
+        border-radius: 10px;
+        color: aliceblue;
+        background-color: rgb(121, 51, 235);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 300px;
+        cursor: pointer;
+        display: inline-block;
+        transition-duration: 0.4s;
+    }
+    table, th, td {
+        color: rgb(132, 230, 255);
+        border: 1px solid black;
+        border-color: whitesmoke;
+        font-size: 30px;
+    }
+    a:link {
+        color: rgb(132, 230, 255);
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: rgb(132, 230, 255);
+        background-color: transparent;
+        text-decoration: none;
+    }
+    form{
+       align-items:flex-start;
+       text-align: left; 
+    }
+    label{
+        color: rgb(132, 230, 255);
+        font-weight: bold;
+    }
+</style>
